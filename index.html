@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Kanban</title>
+</head>
+<body>
+    <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema">
+        <i class="fa-solid fa-moon" id="themeIcon"></i>
+    </button>
+    <main class="kanban">
+        <!-- COLUMN 1 -->
+        <div class="kanban-column" data-id="1">
+            <div class="kanban-title">
+                <h2>
+                    A fazer
+                </h2>
+            </div>
+
+            <div class="kanban-cards">
+                <div class="kanban-card" draggable="true">
+                    <i class="fa-regular fa-star card-star"></i>
+                    <p class="card-title">
+                        Fazer Analise de dados...
+                    </p>
+                    <div class="card-date">
+                        <i class="fa-regular fa-calendar"></i>
+                        <span>26/06/2025</span>
+                    </div>
+                    <div class="card-participants">
+                        <div class="avatar" style="background-color: #ec4899;">MP</div>
+                        <div class="avatar" style="background-color: #14b8a6;">RS</div>
+                        <span class="more-participants">+3</span>
+                    </div>
+                </div>
+                <div class="kanban-card" draggable="true">
+                    <i class="fa-regular fa-star card-star"></i>
+                    <p class="card-title">
+                        Fazer Analise de dados...
+                    </p>
+                    <div class="card-date">
+                        <i class="fa-regular fa-calendar"></i>
+                        <span>26/06/2025</span>
+                    </div>
+                    <div class="card-participants">
+                        <div class="avatar" style="background-color: #ec4899;">MP</div>
+                        <div class="avatar" style="background-color: #14b8a6;">RS</div>
+                        <span class="more-participants">+3</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- COLUMN 2 -->
+        <div class="kanban-column" data-id="2">
+            <div class="kanban-title">
+                <h2>
+                    Em andamento
+                </h2>
+            </div>
+
+            <div class="kanban-cards">
+                <div class="kanban-card" draggable="true">
+                    <i class="fa-regular fa-star card-star"></i>
+                    <p class="card-title">
+                        Fazer Analise de dados...
+                    </p>
+                    <div class="card-date">
+                        <i class="fa-regular fa-calendar"></i>
+                        <span>26/06/2025</span>
+                    </div>
+                    <div class="card-participants">
+                        <div class="avatar" style="background-color: #ec4899;">MP</div>
+                        <div class="avatar" style="background-color: #14b8a6;">RS</div>
+                        <span class="more-participants">+3</span>
+                    </div>
+                </div>
+                <div class="kanban-card" draggable="true">
+                    <i class="fa-regular fa-star card-star"></i>
+                    <p class="card-title">
+                        Fazer Analise de dados...
+                    </p>
+                    <div class="card-date">
+                        <i class="fa-regular fa-calendar"></i>
+                        <span>26/06/2025</span>
+                    </div>
+                    <div class="card-participants">
+                        <div class="avatar" style="background-color: #ec4899;">MP</div>
+                        <div class="avatar" style="background-color: #14b8a6;">RS</div>
+                        <span class="more-participants">+3</span>
+                    </div>
+                </div>
+                <div class="kanban-card" draggable="true">
+                    <i class="fa-regular fa-star card-star"></i>
+                    <p class="card-title">
+                        Fazer Analise de dados...
+                    </p>
+                    <div class="card-date">
+                        <i class="fa-regular fa-calendar"></i>
+                        <span>26/06/2025</span>
+                    </div>
+                    <div class="card-participants">
+                        <div class="avatar" style="background-color: #ec4899;">MP</div>
+                        <div class="avatar" style="background-color: #14b8a6;">RS</div>
+                        <span class="more-participants">+3</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- COLUMN 3 -->
+        <div class="kanban-column" data-id="3">
+            <div class="kanban-title">
+                <h2>
+                    Concluídas
+                </h2>
+            </div>
+
+            <div class="kanban-cards">
+                <div class="kanban-card" draggable="true">
+                    <i class="fa-regular fa-star card-star"></i>
+                    <p class="card-title">
+                        Fazer Analise de dados...
+                    </p>
+                    <div class="card-date">
+                        <i class="fa-regular fa-calendar"></i>
+                        <span>26/06/2025</span>
+                    </div>
+                    <div class="card-participants">
+                        <div class="avatar" style="background-color: #ec4899;">MP</div>
+                        <div class="avatar" style="background-color: #14b8a6;">RS</div>
+                        <span class="more-participants">+3</span>
+                    </div>
+                </div>
+                <div class="kanban-card" draggable="true">
+                    <i class="fa-regular fa-star card-star"></i>
+                    <p class="card-title">
+                        Fazer Analise de dados...
+                    </p>
+                    <div class="card-date">
+                        <i class="fa-regular fa-calendar"></i>
+                        <span>26/06/2025</span>
+                    </div>
+                    <div class="card-participants">
+                        <div class="avatar" style="background-color: #ec4899;">MP</div>
+                        <div class="avatar" style="background-color: #14b8a6;">RS</div>
+                        <span class="more-participants">+3</span>
+                    </div>
+                </div>
+                <div class="kanban-card" draggable="true">
+                    <i class="fa-regular fa-star card-star"></i>
+                    <p class="card-title">
+                        Fazer Analise de dados...
+                    </p>
+                    <div class="card-date">
+                        <i class="fa-regular fa-calendar"></i>
+                        <span>26/06/2025</span>
+                    </div>
+                    <div class="card-participants">
+                        <div class="avatar" style="background-color: #ec4899;">MP</div>
+                        <div class="avatar" style="background-color: #14b8a6;">RS</div>
+                        <span class="more-participants">+3</span>
+                    </div>
+                </div>
+                <div class="kanban-card" draggable="true">
+                    <i class="fa-regular fa-star card-star"></i>
+                    <p class="card-title">
+                        Fazer Analise de dados...
+                    </p>
+                    <div class="card-date">
+                        <i class="fa-regular fa-calendar"></i>
+                        <span>26/06/2025</span>
+                    </div>
+                    <div class="card-participants">
+                        <div class="avatar" style="background-color: #ec4899;">MP</div>
+                        <div class="avatar" style="background-color: #14b8a6;">RS</div>
+                        <span class="more-participants">+3</span>
+                    </div>
+                </div>
+                <div class="kanban-card" draggable="true">
+                    <i class="fa-regular fa-star card-star"></i>
+                    <p class="card-title">
+                        Fazer Analise de dados...
+                    </p>
+                    <div class="card-date">
+                        <i class="fa-regular fa-calendar"></i>
+                        <span>26/06/2025</span>
+                    </div>
+                    <div class="card-participants">
+                        <div class="avatar" style="background-color: #ec4899;">MP</div>
+                        <div class="avatar" style="background-color: #14b8a6;">RS</div>
+                        <span class="more-participants">+3</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- COLUMN 4 -->
+        <div class="kanban-column" data-id="4">
+            <div class="kanban-title">
+                <h2>
+                    Atrasadas
+                </h2>
+            </div>
+
+            <div class="kanban-cards">
+                <div class="kanban-card" draggable="true">
+                    <i class="fa-regular fa-star card-star"></i>
+                    <p class="card-title">
+                        Fazer Analise de dados...
+                    </p>
+                    <div class="card-date">
+                        <i class="fa-regular fa-calendar"></i>
+                        <span>26/06/2025</span>
+                    </div>
+                    <div class="card-participants">
+                        <div class="avatar" style="background-color: #ec4899;">MP</div>
+                        <div class="avatar" style="background-color: #14b8a6;">RS</div>
+                        <span class="more-participants">+3</span>
+                    </div>
+                </div>
+                <div class="kanban-card" draggable="true">
+                    <i class="fa-regular fa-star card-star"></i>
+                    <p class="card-title">
+                        Fazer Analise de dados...
+                    </p>
+                    <div class="card-date">
+                        <i class="fa-regular fa-calendar"></i>
+                        <span>26/06/2025</span>
+                    </div>
+                    <div class="card-participants">
+                        <div class="avatar" style="background-color: #ec4899;">MP</div>
+                        <div class="avatar" style="background-color: #14b8a6;">RS</div>
+                        <span class="more-participants">+3</span>
+                    </div>
+                </div>
+                <div class="kanban-card" draggable="true">
+                    <i class="fa-regular fa-star card-star"></i>
+                    <p class="card-title">
+                        Fazer Analise de dados...
+                    </p>
+                    <div class="card-date">
+                        <i class="fa-regular fa-calendar"></i>
+                        <span>26/06/2025</span>
+                    </div>
+                    <div class="card-participants">
+                        <div class="avatar" style="background-color: #ec4899;">MP</div>
+                        <div class="avatar" style="background-color: #14b8a6;">RS</div>
+                        <span class="more-participants">+3</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- COLUMN 5 -->
+        <div class="kanban-column" data-id="5">
+            <div class="kanban-title">
+                <h2>
+                    Concluídas com atraso
+                </h2>
+            </div>
+
+            <div class="kanban-cards">
+                <div class="kanban-card" draggable="true">
+                    <i class="fa-regular fa-star card-star"></i>
+                    <p class="card-title">
+                        Fazer Analise de dados...
+                    </p>
+                    <div class="card-date">
+                        <i class="fa-regular fa-calendar"></i>
+                        <span>26/06/2025</span>
+                    </div>
+                    <div class="card-participants">
+                        <div class="avatar" style="background-color: #ec4899;">MP</div>
+                        <div class="avatar" style="background-color: #14b8a6;">RS</div>
+                        <span class="more-participants">+3</span>
+                    </div>
+                </div>
+                <div class="kanban-card" draggable="true">
+                    <i class="fa-regular fa-star card-star"></i>
+                    <p class="card-title">
+                        Fazer Analise de dados...
+                    </p>
+                    <div class="card-date">
+                        <i class="fa-regular fa-calendar"></i>
+                        <span>26/06/2025</span>
+                    </div>
+                    <div class="card-participants">
+                        <div class="avatar" style="background-color: #ec4899;">MP</div>
+                        <div class="avatar" style="background-color: #14b8a6;">RS</div>
+                        <span class="more-participants">+3</span>
+                    </div>
+                </div>
+                <div class="kanban-card" draggable="true">
+                    <i class="fa-regular fa-star card-star"></i>
+                    <p class="card-title">
+                        Fazer Analise de dados...
+                    </p>
+                    <div class="card-date">
+                        <i class="fa-regular fa-calendar"></i>
+                        <span>26/06/2025</span>
+                    </div>
+                    <div class="card-participants">
+                        <div class="avatar" style="background-color: #ec4899;">MP</div>
+                        <div class="avatar" style="background-color: #14b8a6;">RS</div>
+                        <span class="more-participants">+3</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>

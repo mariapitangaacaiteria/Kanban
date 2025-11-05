@@ -1,4 +1,4 @@
-<img width="1892" height="1007" alt="image" src="https://github.com/user-attachments/assets/0871a7e1-353d-42cd-b415-37d81143621f" /># Quadro de Tarefas Kanban
+# Quadro de Tarefas Kanban
 
 Este é um projeto de um quadro de tarefas **Kanban** desenvolvido com **HTML**, **CSS** e **JavaScript**. O sistema permite a organização visual de tarefas através de colunas com a funcionalidade de **arrastar e soltar** (drag and drop), facilitando o gerenciamento de atividades.
 
